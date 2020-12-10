@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap');
+body{
+    text-align: center;
+    margin: 0;
+    font-family: 'Londrina Sketch', cursive;
+    font-style: normal;
+}
+
+.neon{
+    font-family: 'Londrina Sketch', cursive;
+    color:rgb(127, 207, 238);
+    font-size: 20px;
+   
+
+    
+
+
+}
+
+.profile {
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 100%;   
+}
+
+h4{
+    color: white;
+}
+
+.pengantar{
+    color:rgb(127, 230, 238);
+}
+.judul{
+    font-family: 'Londrina Sketch', cursive; 
+    color:rgb(127, 230, 238);
+    font-size: 2rem;
+}
+
+.circle{
+    
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;          
+    border-style: solid;
+    border-radius: 50%;  
+    width: 30px;
+ 
+}
+
+/* tag a */
+.aa{
+    font-family: 'Do Hyeon', sans-serif;
+    font-family: 'Vast Shadow', cursive;
+	color:rgb(127, 230, 238);
+    text-decoration: none;
+}
+
+.aa:hover{
+    font-family: 'Do Hyeon', sans-serif;
+    font-family: 'Vast Shadow', cursive;
+	color: rgb(115, 255, 0);
+	text-decoration: none;
+}
+
+
+bio{
+    
+    border-radius: 10px; 
+    text-align: center;
+}
+@media screen and (min-width: 500px){
+    .bio{  
+    width: 21rem;  
+  
+    }
+}
+
+@media screen and (max-width: 501px){
+    .bio{  
+    width: 20rem;  
+  
+    }
+}
+
+
+@media screen and (min-width: 600px){
+    .gal{
+        width: 170px;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+}
+
+
+.social-media{
+    position: relative;
+    top: 120px; 
+    padding:10px;
+    word-spacing: 15px;
+}
+
+@media screen and (max-width: 400px){
+    .social-media{
+        padding:10px; 
+        word-spacing: 10px;
+    }
+}
+
+
+/* Tambahan */
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    color: rgb(0, 225, 255);
+}
+
+.latar {
+    color: white;
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+hr{
+	width: 250px;
+	border-top: 3px solid #999;
+        
+}
+
+.kotak {
+    background-color: white;  
+    border-radius: 10px; 
+    text-align: center;
+    
+}
+
+.input{
+    padding:8px;
+    display:block;
+    border:none;
+    border-bottom:1px solid #ccc;
+    width:100%
+}
+
+@media (min-width: 900px){
+    .kotak{
+        float: left;
+    }
+    .kotak{
+        width: 30%;
+    }
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+  }
